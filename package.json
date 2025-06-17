@@ -10,14 +10,6 @@
 		"postinstall": "chmod +x ./node_modules/.bin/vite",
 		"preview": "vite preview"
 	},
-	"build": {
-		"env": {
-			"NODE_ENV": "production"
-		},
-		"commands": {
-			"build": "npm run build"
-		}
-	},
 	"dependencies": {
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0"
@@ -32,5 +24,8 @@
 		"eslint-plugin-react-refresh": "^0.4.19",
 		"globals": "^16.0.0",
 		"vite": "^6.3.5"
+	},
+	"engines": {
+		"node": ">=18"
 	}
 }
