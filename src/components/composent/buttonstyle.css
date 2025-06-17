@@ -1,0 +1,63 @@
+.hero_button_container {
+	position: relative;
+	background-color: var(--button-bg-color);
+	border: 0.15vw solid black;
+	width: 25vw;
+	height: 8vh;
+	margin-left: 1.5vw;
+}
+
+.hero_button {
+	width: 25vw;
+	height: 8vh;
+	font-size: 2vw;
+	/* font-weight: bold; */
+	font-family: "Poppins", sans-serif;
+	background-color: var(--primary-color); /* ton vert clair */
+	border: 0.15vw solid black;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--text-color);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	position: absolute;
+	top: -15%;
+	left: -4%;
+}
+
+.button2 {
+	background-color: var(--primary-color);
+	border: 0.15vw solid var(--border-color);
+	width: 20vw;
+	height: 8vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* padding: 0 1vw; */
+}
+
+.button2_text {
+	width: 75%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 0.15vw solid var(--border-color);
+	font-size: 1.7vw;
+}
+
+.button2_arrow {
+	width: 25%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button2_arrow img {
+	width: 50%;
+	height: 100%;
+	object-fit: contain;
+}

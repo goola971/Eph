@@ -1,0 +1,156 @@
+.remise {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--primary-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border: 0.05vw solid var(--border-color);
+	font-family: "Poppins";
+}
+
+.remise_top {
+	width: 100%;
+	height: 55%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--bg-color);
+	border-bottom: 0.05vw solid var(--border-color);
+}
+
+.remise_top div:nth-child(1) {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 2vh;
+	padding: 0 5vw;
+}
+
+.remise_top div:nth-child(1) p {
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: "Poppins";
+	/* en majuscule */
+	text-transform: uppercase;
+}
+
+.remise_top div:nth-child(1) span {
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: "Poppins";
+	color: var(--certainLogo);
+	color: #ff5d06;
+}
+
+.remise_top div:nth-child(1) p:nth-child(2) {
+	margin-bottom: 6vh;
+}
+
+.remise_top img {
+	width: 40vw;
+	height: 100%;
+	border-left: 0.1vw solid var(--border-color);
+}
+
+.remise_bottom {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	overflow: hidden;
+}
+
+.remise_bottom_left {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+	padding: 0 3vw;
+	/* background-color: var(--bg-color); */
+}
+
+.remise_bottom_left p {
+	font-size: 1.5vw;
+	font-weight: bold;
+	font-family: "Poppins";
+	text-align: center;
+	margin-top: 14vh;
+}
+
+.remise_bottom_left img {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 52%;
+	top: 13%;
+}
+
+.remise_bottom_right {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 2vh 2vw;
+	gap: 3vh;
+	/* background-color: var(--bg-color); */
+}
+
+.remise_bottom_right .hautLink {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2.1vw;
+}
+
+.remise_bottom_right .basLink {
+	font-size: 1vw;
+	color: var(--text-color);
+}
+
+.about {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--primary-color);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 2vh;
+	border: 0.05vw solid var(--border-color);
+	font-family: "Poppins";
+	padding: 0 5vw;
+}
+
+.about h3 {
+	font-size: 2.3vw;
+	font-family: "Poppins";
+	font-weight: 500;
+	color: var(--text-color);
+	margin-bottom: 3vh;
+}
+
+.about p {
+	font-size: 1.5vw;
+	width: 70%;
+	color: var(--text-color);
+}
+
+.about p:nth-child(4) {
+	margin-bottom: 9vh;
+}
+
+.about_button {
+	margin: 0 auto;
+}

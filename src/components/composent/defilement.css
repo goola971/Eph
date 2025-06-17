@@ -1,0 +1,30 @@
+.scrolling-marquee {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	border-top: 0.05vw solid var(--border-color);
+	border-bottom: 0.05vw solid var(--border-color);
+	font-family: "Poppins";
+}
+
+.marquee-list {
+	display: flex;
+	gap: 2vw;
+	list-style: none;
+	padding: 1vh 0;
+	margin: 0;
+}
+
+.marquee-list li {
+	display: flex;
+	align-items: center;
+	gap: 0.5vw;
+}
+
+.marquee-list p {
+	margin: 0;
+	font-size: 1vw;
+	color: black;
+	white-space: nowrap;
+}
